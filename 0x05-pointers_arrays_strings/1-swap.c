@@ -4,15 +4,18 @@
 /**
  * main -  a function that swaps the values of two integers.
  *
- * @a: pointer deference for cahnging the value of the variale a
- * @b: pointer deference for changing the value of the variale b
+ * @a: pointer deference for changing the value of the variable a
+ * @b: pointer deference for changing the value of the variable b
  *
- * Return: Always 0 (success)
+ * Return: always 0
  */
 
-void swap_int(int *a, int *b)
+void swap_int(int *a, int *b
+)
 {
-	int d = *a;
+	int d;
+
+	d = *a;
 	*a = *b;
 	*b = d;
 }
